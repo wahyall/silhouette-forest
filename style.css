@@ -1,0 +1,199 @@
+body {
+   background-color: #090b3b;
+   /* padding-bottom: 50px; */
+}
+
+.navbar {
+   background-color: rgba(26, 38, 87, .8);
+}
+
+/* Jumbotron */
+.jumbotron {
+   height: 600px;
+   margin: auto;
+   background-color: #090b3b;
+   background-image: url(img/forest6.jpg);
+   background-size: cover;
+   background-position: center -100px;
+   background-repeat: no-repeat;
+}
+
+.jumbotron h1 {
+   font-size: 2rem;
+   color: white;
+   margin-top: 250px;
+}
+
+.btn {
+   font-size: 1rem;
+   padding: .2rem .7rem;
+   color: white;
+   background-color: coral;
+   border: none;
+   border-radius: 10px;
+   box-sizing: border-box;
+   border: 2px solid transparent;
+}
+
+.btn:hover {
+   background-color: transparent;
+   border: 2px solid white;
+   color: white;
+}
+
+.jumbotron p {
+   font-size: 1rem;
+   color: white;
+   width: 90%;
+   margin: auto;
+}
+
+/* Card */
+section {
+   color: white;
+}
+
+.card {
+   align-items: center;
+   background-color: transparent;
+   border: 2px solid white;
+   font-size: .8em;
+}
+
+.card h5 {
+   font-size: 1.5em;
+}
+
+.card img {
+   width: 40%;
+}
+
+
+/* Started */
+.started {
+   margin-top: 60px;
+   margin-bottom: 150px;
+}
+
+/* Contact */
+.contact {
+   background-color: white;
+   color: #090b3b;
+   padding: 20px 0;
+}
+
+/* Footer */
+.footer p {
+   font-size: .8em;
+}
+
+a {
+   color: coral;
+}
+
+a:hover {
+   color: rgb(255, 139, 97);
+   text-decoration: none;
+}
+
+.icon {
+   font-size: 1.6em;
+}
+
+/* Socmed */
+.socmed .row {
+   margin-left: -40px;
+   /* gap: 10px; */
+}
+
+.socmed .row a {
+   text-decoration: none;
+   color: inherit;
+   display: block;
+}
+
+.socmed .row div:hover .facebook {
+   color: #5342b2;
+   transition: .3s;
+   transform: scale(1.2);
+}
+
+.socmed .row div:hover .instagram {
+   color: #F56040;
+   transition: .3s;
+   transform: scale(1.2);
+}
+
+.socmed .row div:hover .twitter {
+   color: #1DA1F2;
+   transition: .3s;
+   transform: scale(1.2);
+}
+
+.socmed .row div:hover .youtube {
+   color: #FF0000;
+   transition: .3s;
+   transform: scale(1.2);
+}
+
+.socmed .row div:hover .line {
+   color: #00c300;
+   transition: .3s;
+   transform: scale(1.2);
+}
+
+.socmed .row div:hover .discord {
+   color: #738ADB;
+   transition: .3s;
+   transform: scale(1.2);
+}
+
+
+/* Responsive Breakpoint */
+@media (min-width: 360px) {
+   .card-columns .card {
+      width: 80%;
+      margin-left: auto;
+      margin-right: auto;
+   }
+}
+
+@media (min-width: 576px) {
+   .card-columns {
+      column-count: 2;
+   }
+
+   .card-columns .card {
+      width: 100%;
+   }
+
+   .info .icon {
+      margin-left: -15px;
+      margin-right: 10px;
+   }
+}
+
+@media (min-width: 768px) {
+   .icon {
+      font-size: 1.8em;
+   }
+
+   .desc {
+      margin-bottom: 100px !important;
+   }
+
+   .socmed .row {
+      margin-left: 0;
+      gap: 10px;
+   }
+}
+
+@media (min-width: 992px) {
+   .socmed .row {
+      gap: 0;
+   }
+
+   .card-columns {
+      column-count: 3;
+   }
+}
